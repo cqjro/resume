@@ -1,0 +1,229 @@
+\documentclass[letterpaper]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+%  \AtBeginDocument{%
+%      \hypersetup{hidelinks}
+% }
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    }
+\usepackage{fancyhdr}
+\usepackage{contour, ulem}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{ #1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{#2} \\
+      #3 & \small #4 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Cairo Cristante}} & \\
+	Linkedin: \href{https://www.linkedin.com/in/cairo-cristante/}{\uline{linkedin.com/in/cairo-cristante/}} & Email: \hspace{1cm} \href{mailto:cairo.cristante@gmail.com}{\uline{cairo.cristante@gmail.com}} \\
+	GitHub: \href{https://github.com/cqjro}{\uline{github.com/cqjro}} & Mobile: \hspace{2.3 cm} +1(647) 968-8060
+\end{tabular*}
+
+%--------PERSONAL SUMMARY--------------
+%\section{Personal Summary}
+% As a second-year Chemical Engineering student, my passion for programming and design has driven me to pursue minors in Artificial Intelligence with an interest in biological processes. I am eager to apply my academic background and expand my knowledge of industrial and research processes. I bring a strong aptitude for problem-solving, attention to detail, and a collaborative mindset, as exemplified in my design team and camp leadership experience.
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Univeristy of Toronto}{Toronto, ON}
+      {Bachelor of Applied Science \& Engineering in Chemical Engineering (B.A.Sc) + PEY}{Sep 2021 - Apr 2026 (expected)}
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant Courses:} Process Design (\textbf{Aspen Plus/Hysys}), Process Control (\textbf{MATLAB, Aspen Dynamics}), Engineering Economic Analysis, Applied Chemistry Laboratory I-IV, Statistics (\textbf{Excel}), Foundations in Machine Learning (\textbf{Python}) }
+        \resumeItem{\textbf{CGPA:} 3.45}
+      \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Tommy Douglas Secondary School}{Vaughan, ON}
+    %   {Ontario Secondary School Diploma (OSSD)}{Sep 2017 - Jun 2021}
+    % \resumeItemListStart
+    %   \resumeItem{Honor Roll (2017-2021), Ceritficat de Francais (2021), Physical Education Subject Award (2020, 2021)}
+    % \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%--------SKILLS SUMMARY------------
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{\textbf{Technical Skills:} Microsoft Suite (Excel, Word, PowerBI), SQL, \LaTeX, AutoCAD Plant 3D, Python (ML and Data Analytics), MATLAB, Aspen Plus, Aspen Hysys, Aspen Dynamics}
+	% \resumeSubItem{\textbf{Programming Skills:} React, NextJS, JavaScript, Python (PyTorch, NumPy, Pandas, SciPy),}
+  \resumeSubItem{\textbf{Interpersonal Skills:} Team Leadership, Team Communication, Project Mangement}
+\resumeSubHeadingListEnd
+
+%-----------WORK EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart 
+
+    \resumeSubheading
+    {Ontario Power Generation}{Bowmanville, ON}
+		{Professional Engineering Year Student - Chemistry \& Environment}{May 2024 - Aug 2025 (Present)}
+		\resumeItemListStart
+	     % need to figure out how to add a subheading for the LIMS project specifically
+        \resumeItem{Configured stations specific data for migration to new Laboratory Information Management System (LIMS), utilizing station chemistry governing documents to accurately reflect and improve scheduling and data retention of labtoraty results.} % change to better phrasing
+        \resumeItem{Engineered configuration tools to increase LIMS configuration resulting in 50\% increase in progress to towards data configuration deadline and production release. }
+        	
+				% tote tracking
+				\resumeItem{Assisted in tracking of chemical tote serial numbers, location, and recertification dates to adaquate supply provided to station systems reuslting prolonged system healtha corrosion protection }
+				\resumeItem{Attending various vendor meetings and site tours with vendors to resolve discrepancies in recertification process and location tracking resolving previous issues in which chemicals were not avaliable on site.}
+
+				% general station activities
+				\resumeItem{Developed tools for station wide reporting tool for the Integrated Station Brief (ISB) package to report labtorary results that are outside of specified range, decreasing reporting errors and increasing visability and accountability stations groups for corrective action, as well as highlighting greater visability for condenser tube leaks and other sensitive parameters.} % need to clean up to be less of a run on sentence
+        \resumeItem{Tracked various department metrics including burden hours causing strain on the lab allowing quantifiable metrics to advocate for repairs of online instruments with support from other working groups}
+				\resumeItem{Advocated for the repair of various online analyzer critical to chemistry control of secondary side systems, resulting in eventual repair and increased monitoring capabilities for curtial chemical paramters.}
+				\resumeItem{Engaged in conferences with industry partners such as Electric Power Research Institute (EPRI) and Conexus Nuclear Inc (Formerly CANDU Owners Group (COG)) gaining insight into industry best practices for chemistry control and possible resolution of large scale chemical events.}
+				\resumeItem{Revised Chemistry Labtoratory to with best practices for saftey, chemical analysis methods, and to accomodate advancements in laboratory equipment}
+				\resumeItem{Conducted internal audit of labtoratory practices to ensure compliance with analytical technique requirements of environmental regulartors leading to capture and resolution of several instances of non-compliance in labtoary procedure.}
+				\resumeItem{Pariticpated in numerous walkdowns of the station gaining valuable insight into the operation of various plant systems as well as laboratory pratice.}
+    \resumeItemListEnd
+
+
+  %   \resumeSubheading
+  %   {Rouge Camps}{Vaughan, ON}
+  %   {Lead Counselor}{Jun 2021 - Aug 2022}
+  %   \resumeItemListStart
+  %       \resumeItem{Created and maintained a positive and inclusive camp environment through effective communication and team-building exercises, resulting in a 90\% camper satisfaction rate}
+  %       \resumeItem{Lead co-counselor and volunteer when running activities for campers to ensure successful organization of activities}
+  %       \resumeItem{Resolved emergency situations using active knowledge of camp safety procedures, first aid training and communication with co-counselors to maintain camper safety}
+  %       \resumeItem{Recived Counselor of the Summer award for outstanding camper engagement, parent interaction and sports programming}
+  %   \resumeItemListEnd
+		%
+  %   \resumeSubheading
+  %   {Rouge Camps}{Vaughan, ON}{Social Media Representative}{Jun 2022 - Aug 2022}
+  %   \resumeItemListStart
+  %     \resumeItem{Facilitated storage of photos and templates to be used in company marketing, improving overall data organization using Excel and Google Suite}
+  %     \resumeItem{Created daily summary Instagram posts on location-wide sports programming to improve parent engagement in social media marketing}
+  %   \resumeItemListEnd
+		%
+  %   \resumeSubheading
+		% {City of Vaughan}{Vaughan, ON}
+		% {Swimming Instructor}{Jan 2020 -  Mar 2020}
+		% \resumeItemListStart
+  %       \resumeItem{Developed and implemented effective swimming drills to inform and improve upon swimmer proficiency}
+  %       \resumeItem{Analyzed swimmer performance against curriculum standards and provided recommendations on the future level of \\ enrolment}
+  %       \resumeItem{Communicated with supervisors and fellow instructors to resolve swimmer emergencies effectively in accordance with lifeguard training}
+  %   \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    % \resumeSubheading
+    % {Bearable (\href{https://bearable.ca/}{\uline{Bearable.ca}})}{Toronto, ON}
+    % {Front-End Developer \& Linear Algebra Content Author}{May 2023 - Aug 2023}
+    % \resumeItemListStart
+    %       \resumeItem{\textbf{GitHub Link:} \href{{https://github.com/cqjro/Bearable}}{\uline{https://github.com/cqjro/Bearable}}}
+    %       \resumeItem{Managed multidisciplinary team on the design and content of a first-year engineering learning platform.}
+    %       \resumeItem{Collaborated with the design team to create an intuitive user interface, increasing in average time spent on site.}
+    %       \resumeItem{Designed Markdown lesson display system and format leading to increased efficiency in the content development process and enhanced blog-like learning experience}
+    %       \resumeItem{Developed Linear Algebra lesson content with a focus on summarizing important concepts and connecting concepts to real-world and course-based applications leading to increased user comprehension}
+    % \resumeItemListEnd
+
+    \resumeSubheading
+    {Univeristy of Toronto}{Toronto, ON}
+    {Skin Cancer Diagnosis from Images using Machine Learning}{Jun 2023 - Aug 2023}
+    \resumeItemListStart
+          \resumeItem{\textbf{GitHub Link:} \href{https://github.com/cqjro/APS360-Project-Group-49}{\uline{https://github.com/cqjro/APS360-Project-Group-49}}}
+          \resumeItem{Collaborated to develop training and testing methods for various convolutional machine-learning models resulting in increased training efficiency}
+          \resumeItem{Conducted extensive research and experimentation to optimize the performance of machine learning models, resulting in a 40\% reduction in false negative diagnoses compared to previous methods.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Univeristy of Toronto}{Toronto, ON}
+    {Battery Thermal Runaway Modeling Investigation}{Feb 2023 - Apr 2023}
+    \resumeItemListStart
+          \resumeItem{\textbf{GitHub Link:} \href{https://github.com/cqjro/Battery-Thermal-Runaway-Analysis}{\uline{https://github.com/cqjro/Battery-Thermal-Runaway-Analysis}}}
+          \resumeItem{Modelled thermal runaway behavior in MesoCarbon MicroBead Lithium batteries analyzing the effects of initial amounts of reactants, surface area, starting temperature to recommand design of future batteries}
+          \resumeItem{Formulated model that mitigates the self-heating reactions within the battery to advise the design of cooling methods.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Univeristy of Toronto}{Toronto, ON}
+    {Biodiesel Synthesis Optimization Study}{Feb 2023 - Apr 2023}
+    \resumeItemListStart
+          \resumeItem{Researched and reviewed relevant literature for Biodiesel synthesis using oil transesterification process under basic conditions yielding maximum product recovery.}
+          \resumeItem{Conducted comprehensive experiments using the One Variable At a Time (OVAT) method to analyze the impact of Reaction Duration, type of oil, type of alcohol, and temperature on biodiesel synthesis yield under basic conditions.}
+          \resumeItem{Utilized statistical methods to determine trends in yield using reaction data and developed recommendations for optimal process conditions.}
+    \resumeItemListEnd
+
+  %   \resumeSubheading
+  %   {Univeristy of Toronto}{Toronto, ON}
+  %   {Engineering Strategies \& Practice Design Team Leader}{Jan 2022 - Apr 2022}
+  %   \resumeItemListStart
+  %         \resumeItem{Led engineering team in the design of efficient off-grid solar panel cart to meet client needs for the outdoor electrical system.}
+  %         \resumeItem{Maintained strong client relations throughout the project and facilitated client-team communications.}
+  %         \resumeItem{Organized team workflow by spearheading meeting itinerary and schedule resulting in a boost of overall productivity.}
+  %   \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+\end{document}
